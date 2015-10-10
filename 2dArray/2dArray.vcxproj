@@ -118,12 +118,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Array.cpp" />
     <ClCompile Include="Array2D.cpp" />
     <ClCompile Include="Exception.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Row.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Array.h" />
     <ClInclude Include="Array2D.h" />
     <ClInclude Include="Exception.h" />
     <ClInclude Include="Row.h" />
