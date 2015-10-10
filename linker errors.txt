@@ -1,0 +1,2 @@
+1>Main.obj : error LNK2019: unresolved external symbol "public: __cdecl Row<int>::Row<int>(class Array2D<int> *,int)" (??0?$Row@H@@QEAA@PEAV?$Array2D@H@@H@Z) referenced in function "public: class Row<int> __cdecl Array2D<int>::operator[](int)" (??A?$Array2D@H@@QEAA?AV?$Row@H@@H@Z)
+1>Main.obj : error LNK2019: unresolved external symbol "public: int & __cdecl Row<int>::operator[](int)" (??A?$Row@H@@QEAAAEAHH@Z) referenced in function main
