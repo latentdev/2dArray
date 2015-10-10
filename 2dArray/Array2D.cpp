@@ -67,7 +67,8 @@ Array2D<a_type> & Array2D<a_type>::operator=(const Array2D & in_rhs)
 template<typename a_type>
 Row<a_type> Array2D<a_type>::operator[](int in_index)
 {
-	return Row<a_type>(&this, in_index);
+	 Row<a_type> a (this, in_index);
+	 return a; 
 }
 
 template<typename a_type>

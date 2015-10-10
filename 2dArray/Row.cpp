@@ -2,7 +2,7 @@
 #include "Array2d.cpp"
 
 template<typename a_type>
-inline Row<a_type>::Row(Array2D<a_type>& in_array, int in_row)
+Row<a_type>::Row(Array2D<a_type> * in_array, int in_row)
 {
 	m_array2D = in_array;
 	m_row = in_row;
